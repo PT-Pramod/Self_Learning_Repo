@@ -7,23 +7,29 @@ public class Constructor_this
 {
 	public Constructor_this()
 	{
-		this(34);
-		System.out.println("Default Constructor");
+	
+		System.out.println("Parent Default Constructor");
 	}
 	
 	public Constructor_this(int a)
 	{
-	
-		System.out.println("one parameterized Constructor");
+		this();
+		System.out.println("Parent one parameterized Constructor");
 	}
 	public Constructor_this (int a, int b)
 	{
-		this();
-		System.out.println("Two parameterized Constructor");
+		this(34,20,10);
+		System.out.println("Parent Two parameterized Constructor");
+	}
+	
+	public Constructor_this (int a, int b, int c)
+	{
+		this(34);
+		System.out.println("Parent Three parameterized Constructor");
 	}
 	public static void main(String[] args) {
 		Constructor_this ct= new Constructor_this(60,80);
-		
+
 	}
 
 }
