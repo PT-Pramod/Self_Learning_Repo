@@ -6,7 +6,7 @@ public class Assignment_7
 
 {
 public void SwapNumber ()
-//Swapping two number using third variable
+//Assignment_7_Part1 Swapping two number using third variable
    {
 	  int x; int y; int z; int a; int b;
 	 
@@ -27,7 +27,7 @@ public void SwapNumber ()
 	  
    }
 public void SwapNumber1 ()
-//Swapping two number without third variable
+//Assignment_7_Part2 Swapping two number without third variable
  {
 	  int a; int b; int c; int d; int e;
 	 
